@@ -13,11 +13,14 @@ $\dagger$ Corresponding authors
 If you use APTM in your research, please cite it by the following BibTeX entry:
 
 ```bibtex
-@inproceedings{yang2023towards,
-  title={From Data Deluge to Data Curation: A Filtering-WoRA Paradigm for Efficient Text-based Person Search},
-  author={Jintao, Sun and Hao, Fei and Gangyi, Ding and Zhedong, Zheng},
-  booktitle = {Proceedings of the ACM Web Conference 2025 (WWW '25)},
-  year={2025}
+@misc{sun2025datadelugedatacuration,
+      title={From Data Deluge to Data Curation: A Filtering-WoRA Paradigm for Efficient Text-based Person Search}, 
+      author={Jintao Sun and Hao Fei and Zhedong Zheng and Gangyi Ding},
+      year={2025},
+      eprint={2404.10292},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2404.10292}, 
 }
 
 ```
