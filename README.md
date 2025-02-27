@@ -42,10 +42,15 @@ Clone the repository to your local machine:
 git clone https://github.com/username/Filtering-WoRA.git
 cd Filtering-WoRA
 ```
+
 Install the required dependencies:
+
+```bash
 pip install -r requirements.txt
+```
 
 ## 📚 Citation
+
 If you use Filtering-WoRA in your research, please cite the following BibTeX entry:
 
 bibtex
