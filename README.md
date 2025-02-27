@@ -1,4 +1,4 @@
-# Filtering-WoRA: Efficient Text-based Person Search 🕵️‍♂️
+# From Data Deluge to Data Curation: A Filtering-WoRA Paradigm for Efficient Text-based Person Search 🕵️‍♂️
 
 [![GitHub](https://img.shields.io/github/license/username/Filtering-WoRA)](https://github.com/username/Filtering-WoRA/blob/main/LICENSE)  
 [![Version](https://img.shields.io/badge/version-1.0-blue)](https://github.com/username/Filtering-WoRA/releases/tag/v1.0)  
