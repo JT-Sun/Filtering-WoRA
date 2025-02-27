@@ -16,7 +16,7 @@ The **Filtering-WoRA** paradigm focuses on efficient **text-based person search*
 - Gangyi Ding
 - Zhedong Zheng
 
-Corresponding authors: Jintao Sun, Zhedong Zheng
+Corresponding authors: Zhedong Zheng
 
 You can read the full paper [here](https://arxiv.org/abs/2404.10292).
 
