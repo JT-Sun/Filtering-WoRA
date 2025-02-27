@@ -41,3 +41,17 @@ Clone the repository to your local machine:
 ```bash
 git clone https://github.com/username/Filtering-WoRA.git
 cd Filtering-WoRA
+
+## 📚 Citation
+If you use Filtering-WoRA in your research, please cite the following BibTeX entry:
+
+bibtex
+@misc{sun2025datadelugedatacuration,
+      title={From Data Deluge to Data Curation: A Filtering-WoRA Paradigm for Efficient Text-based Person Search}, 
+      author={Jintao Sun and Hao Fei and Zhedong Zheng and Gangyi Ding},
+      year={2025},
+      eprint={2404.10292},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2404.10292}, 
+}
