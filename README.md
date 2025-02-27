@@ -51,9 +51,9 @@ pip install -r requirements.txt
 
 ## 📚 Citation
 
-If you use Filtering-WoRA in your research, please cite the following BibTeX entry:
+If you use **Filtering-WoRA** in your research, please cite the following BibTeX entry:
 
-bibtex
+```bibtex
 @misc{sun2025datadelugedatacuration,
       title={From Data Deluge to Data Curation: A Filtering-WoRA Paradigm for Efficient Text-based Person Search}, 
       author={Jintao Sun and Hao Fei and Zhedong Zheng and Gangyi Ding},
