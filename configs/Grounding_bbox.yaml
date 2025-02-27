@@ -1,0 +1,80 @@
+train_file: ['/public/home/wangmiao/sjt_new/APTM-A800i/gene_attrs/g_4x_attrs.json', '/public/home/wangmiao/sjt_new/APTM-A800i/gene_attrs/g_c_g_a_attrs.json',
+              '/public/home/wangmiao/sjt_new/APTM-A800i/gene_attrs/g_c_g_a_0_attrs.json', '/public/home/wangmiao/sjt_new/APTM-A800i/gene_attrs/g_c_g_a_1_attrs.json',
+              '/public/home/wangmiao/sjt_new/APTM-A800i/gene_attrs/g_c_g_a_2_attrs.json', '/public/home/wangmiao/sjt_new/APTM-A800i/gene_attrs/g_c_g_a_3_attrs.json',
+              '/public/home/wangmiao/sjt_new/APTM-A800i/gene_attrs/g_c_g_a_4_attrs.json', '/public/home/wangmiao/sjt_new/APTM-A800i/gene_attrs/g_c_g_a_5_attrs.json',
+              '/public/home/wangmiao/sjt_new/APTM-A800i/gene_attrs/g_c_g_a_6_attrs.json', '/public/home/wangmiao/sjt_new/APTM-A800i/gene_attrs/g_c_g_a_7_attrs.json',
+              '/public/home/wangmiao/sjt_new/APTM-A800i/gene_attrs/g_c_g_a_8_attrs.json', '/public/home/wangmiao/sjt_new/APTM-A800i/gene_attrs/g_c_g_a_9_attrs.json',
+              '/public/home/wangmiao/sjt_new/APTM-A800i/gene_attrs/g_c_g_a_10_attrs.json','/public/home/wangmiao/sjt_new/APTM-A800i/gene_attrs/g_c_g_a_11_attrs.json',
+              '/public/home/wangmiao/sjt_new/APTM-A800i/gene_attrs/g_c_g_a_12_attrs.json', '/public/home/wangmiao/sjt_new/APTM-A800i/gene_attrs/g_c_g_a_13_attrs.json',
+              '/public/home/wangmiao/sjt_new/APTM-A800i/gene_attrs/g_c_g_a_14_attrs.json', '/public/home/wangmiao/sjt_new/APTM-A800i/gene_attrs/g_c_g_a_15_attrs.json',
+              '/public/home/wangmiao/sjt_new/APTM-A800i/gene_attrs/g_c_g_a_16_attrs.json', '/public/home/wangmiao/sjt_new/APTM-A800i/gene_attrs/g_c_g_a_17_attrs.json',
+              '/public/home/wangmiao/sjt_new/APTM-A800i/gene_attrs/g_c_g_a_18_attrs.json', '/public/home/wangmiao/sjt_new/APTM-A800i/gene_attrs/g_c_g_a_19_attrs.json',
+              '/public/home/wangmiao/sjt_new/APTM-A800i/gene_attrs/g_c_g_a_20_attrs.json', '/public/home/wangmiao/sjt_new/APTM-A800i/gene_attrs/g_c_g_a_21_attrs.json',
+              '/public/home/wangmiao/sjt_new/APTM-A800i/gene_attrs/g_c_g_a_22_attrs.json', '/public/home/wangmiao/sjt_new/APTM-A800i/gene_attrs/g_c_g_a_23_attrs.json',
+              '/public/home/wangmiao/sjt_new/APTM-A800i/gene_attrs/g_c_g_a_24_attrs.json', '/public/home/wangmiao/sjt_new/APTM-A800i/gene_attrs/g_c_g_a_25_attrs.json',
+              '/public/home/wangmiao/sjt_new/APTM-A800i/gene_attrs/g_c_g_a_26_attrs.json', '/public/home/wangmiao/sjt_new/APTM-A800i/gene_attrs/g_c_g_a_27_attrs.json',
+              '/public/home/wangmiao/sjt_new/APTM-A800i/gene_attrs/g_c_g_a_28_attrs.json', '/public/home/wangmiao/sjt_new/APTM-A800i/gene_attrs/g_c_g_a_29_attrs.json',
+              '/public/home/wangmiao/sjt_new/APTM-A800i/gene_attrs/g_c_g_a_30_attrs.json', '/public/home/wangmiao/sjt_new/APTM-A800i/gene_attrs/g_c_g_a_31_attrs.json',
+              '/public/home/wangmiao/sjt_new/APTM-A800i/gene_attrs/g_c_g_a_32_attrs.json', '/public/home/wangmiao/sjt_new/APTM-A800i/gene_attrs/g_c_g_a_33_attrs.json',
+              '/public/home/wangmiao/sjt_new/APTM-A800i/gene_attrs/g_c_g_a_34_attrs.json', '/public/home/wangmiao/sjt_new/APTM-A800i/gene_attrs/g_c_g_a_35_attrs.json',
+              '/public/home/wangmiao/sjt_new/APTM-A800i/gene_attrs/g_c_g_a_36_attrs.json', '/public/home/wangmiao/sjt_new/APTM-A800i/gene_attrs/g_c_g_a_37_attrs.json',
+              '/public/home/wangmiao/sjt_new/APTM-A800i/gene_attrs/g_c_g_a_38_attrs.json', '/public/home/wangmiao/sjt_new/APTM-A800i/gene_attrs/g_c_g_a_39_attrs.json',
+              '/public/home/wangmiao/sjt_new/APTM-A800i/gene_attrs/g_c_g_a_40_attrs.json', '/public/home/wangmiao/sjt_new/APTM-A800i/gene_attrs/g_c_g_a_41_attrs.json',
+              '/public/home/wangmiao/sjt_new/APTM-A800i/gene_attrs/g_c_g_a_42_attrs.json', '/public/home/wangmiao/sjt_new/APTM-A800i/gene_attrs/g_c_g_a_43_attrs.json',
+              '/public/home/wangmiao/sjt_new/APTM-A800i/gene_attrs/g_i_g_a_attrs.json', '/public/home/wangmiao/sjt_new/APTM-A800i/gene_attrs/g_i_g_a_0_attrs.json',
+              '/public/home/wangmiao/sjt_new/APTM-A800i/gene_attrs/g_i_g_a_1_attrs.json', '/public/home/wangmiao/sjt_new/APTM-A800i/gene_attrs/g_i_g_a_2_attrs.json',
+              '/public/home/wangmiao/sjt_new/APTM-A800i/gene_attrs/g_i_g_a_3_attrs.json', '/public/home/wangmiao/sjt_new/APTM-A800i/gene_attrs/g_i_g_a_4_attrs.json',
+              '/public/home/wangmiao/sjt_new/APTM-A800i/gene_attrs/g_i_g_a_5_attrs.json', '/public/home/wangmiao/sjt_new/APTM-A800i/gene_attrs/g_i_g_a_6_attrs.json',
+              '/public/home/wangmiao/sjt_new/APTM-A800i/gene_attrs/g_i_g_a_7_attrs.json', '/public/home/wangmiao/sjt_new/APTM-A800i/gene_attrs/g_i_g_a_8_attrs.json',
+              '/public/home/wangmiao/sjt_new/APTM-A800i/gene_attrs/g_i_g_a_9_attrs.json', '/public/home/wangmiao/sjt_new/APTM-A800i/gene_attrs/g_i_g_a_10_attrs.json',
+              '/public/home/wangmiao/sjt_new/APTM-A800i/gene_attrs/g_i_g_a_11_attrs.json', '/public/home/wangmiao/sjt_new/APTM-A800i/gene_attrs/g_i_g_a_12_attrs.json',
+              '/public/home/wangmiao/sjt_new/APTM-A800i/gene_attrs/g_i_g_a_13_attrs.json', '/public/home/wangmiao/sjt_new/APTM-A800i/gene_attrs/g_i_g_a_14_attrs.json',
+              '/public/home/wangmiao/sjt_new/APTM-A800i/gene_attrs/g_i_g_a_15_attrs.json', '/public/home/wangmiao/sjt_new/APTM-A800i/gene_attrs/g_i_g_a_16_attrs.json',
+              '/public/home/wangmiao/sjt_new/APTM-A800i/gene_attrs/g_i_g_a_17_attrs.json', '/public/home/wangmiao/sjt_new/APTM-A800i/gene_attrs/g_i_g_a_18_attrs.json',
+              '/public/home/wangmiao/sjt_new/APTM-A800i/gene_attrs/g_i_g_a_19_attrs.json', '/public/home/wangmiao/sjt_new/APTM-A800i/gene_attrs/g_i_g_a_20_attrs.json',
+              '/public/home/wangmiao/sjt_new/APTM-A800i/gene_attrs/g_i_g_a_21_attrs.json', '/public/home/wangmiao/sjt_new/APTM-A800i/gene_attrs/g_i_g_a_22_attrs.json',
+              '/public/home/wangmiao/sjt_new/APTM-A800i/gene_attrs/g_i_g_a_23_attrs.json', '/public/home/wangmiao/sjt_new/APTM-A800i/gene_attrs/g_i_g_a_24_attrs.json',
+              '/public/home/wangmiao/sjt_new/APTM-A800i/gene_attrs/g_i_g_a_25_attrs.json', '/public/home/wangmiao/sjt_new/APTM-A800i/gene_attrs/g_i_g_a_26_attrs.json',
+              '/public/home/wangmiao/sjt_new/APTM-A800i/gene_attrs/g_i_g_a_27_attrs.json', '/public/home/wangmiao/sjt_new/APTM-A800i/gene_attrs/g_i_g_a_28_attrs.json',
+              '/public/home/wangmiao/sjt_new/APTM-A800i/gene_attrs/g_i_g_a_29_attrs.json', '/public/home/wangmiao/sjt_new/APTM-A800i/gene_attrs/g_i_g_a_30_attrs.json',
+              '/public/home/wangmiao/sjt_new/APTM-A800i/gene_attrs/g_i_g_a_31_attrs.json', '/public/home/wangmiao/sjt_new/APTM-A800i/gene_attrs/g_i_g_a_32_attrs.json',
+              '/public/home/wangmiao/sjt_new/APTM-A800i/gene_attrs/g_i_g_a_33_attrs.json', '/public/home/wangmiao/sjt_new/APTM-A800i/gene_attrs/g_i_g_a_34_attrs.json',
+              '/public/home/wangmiao/sjt_new/APTM-A800i/gene_attrs/g_i_g_a_35_attrs.json', '/public/home/wangmiao/sjt_new/APTM-A800i/gene_attrs/g_i_g_a_36_attrs.json',
+              '/public/home/wangmiao/sjt_new/APTM-A800i/gene_attrs/g_i_g_a_37_attrs.json', '/public/home/wangmiao/sjt_new/APTM-A800i/gene_attrs/g_i_g_a_38_attrs.json',
+              '/public/home/wangmiao/sjt_new/APTM-A800i/gene_attrs/g_i_g_a_39_attrs.json', '/public/home/wangmiao/sjt_new/APTM-A800i/gene_attrs/g_i_g_a_40_attrs.json',
+              '/public/home/wangmiao/sjt_new/APTM-A800i/gene_attrs/g_i_g_a_41_attrs.json', '/public/home/wangmiao/sjt_new/APTM-A800i/gene_attrs/g_i_g_a_42_attrs.json',
+              '/public/home/wangmiao/sjt_new/APTM-A800i/gene_attrs/g_i_g_a_43_attrs.json']
+test_file: ['/public/home/wangmiao/sjt_new/APTM-main/data/finetune/cuhk_test.json']
+
+#refcoco_data: 'data/finetune/'
+#det_file: 'data/finetune/refcoco+/dets.json'
+#coco_file: 'data/finetune/refcoco+/cocos.json'
+
+image_root: '/public/home/wangmiao/sjt_new/APTM-main/images/CUHK-PEDES/'
+
+## Vision Encoder
+vision_config: '/public/home/wangmiao/sjt_new/APTM-main/configs/config_swinB_384.json'
+
+#use_clip_vit: False
+#image_res: 384
+#patch_size: 16
+
+#use_swin: True
+image_res: 384
+patch_size: 32
+
+
+## Text Encoder
+#use_roberta: False
+text_config: '/public/home/wangmiao/sjt_new/APTM-main/configs/config_bert.json'
+text_encoder: '/public/home/wangmiao/sjt_new/APTM-main/data/bert-base-uncased'
+
+
+## Training
+batch_size: 120
+max_tokens: 56
+
+
+## Other Settings
+optimizer: {opt: adamW, lr: 1e-4, weight_decay: 0.01, lr_mult: 2}
+schedular: {sched: linear, lr: 1e-4, epochs: 32, num_warmup_steps: 2600}
