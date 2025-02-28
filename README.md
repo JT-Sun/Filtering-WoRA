@@ -9,15 +9,13 @@
 The **Filtering-WoRA** paradigm focuses on efficient **text-based person search** by addressing the challenges of **data deluge** and **data curation**. This innovative approach streamlines the search process, enhancing accuracy and scalability in large-scale applications.
 
 **Authors:**
-- Jintao Sun
-- Hao Fei
-- Gangyi Ding
-- Zhedong Zheng
+> [Jintao Sun](https://scholar.google.com/citations?hl=zh-CN&user=OhD3pk8AAAAJ), [Hao Fei](https://scholar.google.com/citations?user=YGDX46AAAAAJ), Gangyi Ding, [Zhedong Zheng](https://scholar.google.com/citations?user=XT17oUEAAAAJ)$\dagger$
 
-Corresponding authors: Zhedong Zheng
+$\dagger$ Corresponding authors
 
 You can read the full paper [here](https://arxiv.org/abs/2404.10292).
 
+![Architecture](assets/www_arch6.pdf)
 ---
 
 ## 🚀 Getting Started
