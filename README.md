@@ -43,13 +43,22 @@ git clone https://github.com/username/Filtering-WoRA.git
 cd Filtering-WoRA
 ```
 
-Install the required dependencies:
+### Install Requirements
 
-```bash
+we use 8 A100 80G GPU for training and evaluation.
+
+Create conda environment.
+
+```
+conda create -n wora python=3.8
+conda activate wora
+pip install torch==1.9.1+cu111 torchvision==0.10.1+cu111 torchaudio==0.9.1 -f https://download.pytorch.org/whl/torch_stable.html
 pip install -r requirements.txt
 ```
 
-### Datasets Prepare
+### Dataset Preparation
+
+Download the MALS dataset is released at [Baidu Yun](https://pan.baidu.com/s/1HMvNIIFlquI2w0R6f0G7Dg) [4kq0] and [OneDrive](https://1drv.ms/f/s!Ak2z-VJ5LcCvgdZGSTJbaHOMMFZi9A?e=gCBnv0) [mals].
 
 Download the CUHK-PEDES dataset from [here](https://github.com/ShuangLI59/Person-Search-with-Natural-Language-Description) , the PA-100K dataset from [here](https://github.com/xh-liu/HydraPlus-Net), the RSTPReid dataset from [here](https://github.com/NjtechCVLab/RSTPReid-Dataset), and ICFG-PEDES dataset from [here](https://github.com/zifyloo/SSAN). Download the processed json files of the aboves four datasets from [here](https://pan.baidu.com/s/1oAkenOKaVEYWpNh2hznkGA) [b2l8]
 
@@ -106,6 +115,67 @@ And organize those datasets in `images` folder as follows:
 |    |-- <RSTPReid>/
 ```
 
+### 📊 Data Filtering Process
+
+#### 🧹 **Data Filtering for Pretrain**
+
+1. **Step 1**: Find the data below the threshold (Example: `MALS-4x`)
+    ```bash
+    python read_cuhk_4x_top50.py
+    ```
+
+2. **Step 2**: Delete the filtered data (Example: `MALS-4x`)
+    ```bash
+    python top_filterdelet_single.py
+    ```
+
+    **Note**: Remember to modify the paths in the above Python files to your own. Also, change `4x` to the appropriate data folder name as needed.
+
+3. **Batch Processing for MALS Datasets**:
+    If you're processing multiple MALS datasets, use the following:
+    ```bash
+    python read_cuhk_part_cga_top50.py
+    python top_filterdelet_parts.py
+    ```
+
+---
+
+#### 🧹 **Data Filtering for Fine-tuning**
+
+1. **Step 1**: Find the data below the threshold (Example: `CUHK-PEDES`)
+    ```bash
+    python cuhk_filter_ft90.py
+    ```
+
+2. **Step 2**: Delete the filtered data (Example: `CUHK-PEDES`)
+    ```bash
+    python cuhk_fintune_filterdelet_json.py
+    ```
+
+    **Note**: Remember to modify the paths in the above Python files to your own.
+
+---
+
+### 🏋️‍♂️Pretraining
+To pretrain **Filtering-WoRA** using MALS, run the following command:
+
+```
+python run.py --task "itr_gene" --dist "f8" --output_dir "output/pretrained"
+```
+
+### 🔄Fine-tuning
+We fine-tune our **Filtering-WoRA** using existing text-based Person Re-id datasets. Performance can be improved by replacing the backbone with our pre-trained model. Taking CUHK-PEDES as an example:
+
+```
+python run.py --task "itr_cuhk" --dist "f8" --output_dir "output/ft_cuhk" --checkpoint "output/pretrained/checkpoint_31.pth"
+```
+
+### 📝Evaluation
+
+```
+python run.py --task "itr_cuhk" --evaluate --dist "f8" --output_dir "output/ft_cuhk/test" --checkpoint "output/ft_cuhk/checkpoint_best.pth"
+```
+
 ## 📚 Citation
 
 If you use **Filtering-WoRA** in your research, please cite the following BibTeX entry:
@@ -120,3 +190,7 @@ If you use **Filtering-WoRA** in your research, please cite the following BibTeX
       primaryClass={cs.CV},
       url={https://arxiv.org/abs/2404.10292}, 
 }
+```
+## ✨ Acknowledgement
+- Our code is based on [APTM](https://github.com/Shuyu-XJTU/APTM/tree/main)
+- [BLIP](https://github.com/salesforce/BLIP), [BLIP-2](https://github.com/salesforce/LAVIS): Thanks a lot for the foundamental efforts!
