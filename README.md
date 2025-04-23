@@ -181,14 +181,22 @@ python run.py --task "itr_cuhk" --evaluate --dist "f8" --output_dir "output/ft_c
 If you use **Filtering-WoRA** in your research, please cite the following BibTeX entry:
 
 ```bibtex
-@misc{sun2025datadelugedatacuration,
-      title={From Data Deluge to Data Curation: A Filtering-WoRA Paradigm for Efficient Text-based Person Search}, 
-      author={Jintao Sun and Hao Fei and Zhedong Zheng and Gangyi Ding},
-      year={2025},
-      eprint={2404.10292},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2404.10292}, 
+@inproceedings{10.1145/3696410.3714788,
+author = {Sun, Jintao and Fei, Hao and Ding, Gangyi and Zheng, Zhedong},
+title = {From Data Deluge to Data Curation: A Filtering-WoRA Paradigm for Efficient Text-based Person Search},
+year = {2025},
+isbn = {9798400712746},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3696410.3714788},
+doi = {10.1145/3696410.3714788},
+abstract = {In text-based person search endeavors, data generation has emerged as a prevailing practice, addressing concerns over privacy preservation and the arduous task of manual annotation. Although the number of synthesized data can be infinite in theory, the scientific conundrum persists that how much generated data optimally fuels subsequent model training. We observe that only a subset of the data in these constructed datasets plays a decisive role. Therefore, we introduce a new Filtering-WoRA paradigm, which contains a filtering algorithm to identify this crucial data subset and WoRA (Weighted Low-Rank Adaptation) learning strategy for light fine-tuning. The filtering algorithm is based on the cross-modality relevance to remove the lots of coarse matching synthesis pairs. As the number of data decreases, we do not need to fine-tune the entire model. Therefore, we propose a WoRA learning strategy to efficiently update a minimal portion of model parameters. WoRA streamlines the learning process, enabling heightened efficiency in extracting knowledge from fewer, yet potent, data instances. Extensive experimentation validates the efficacy of pretraining, where our model achieves advanced and efficient retrieval performance on challenging real-world benchmarks. Notably, on the CUHK-PEDES dataset, we have achieved a competitive mAP of 67.02\% while reducing model training time by 19.82\%.},
+booktitle = {Proceedings of the ACM on Web Conference 2025},
+pages = {2341–2351},
+numpages = {11},
+keywords = {data-centric learning, low-rank adaptation, text-based person search, visual-language pre-training},
+location = {Sydney NSW, Australia},
+series = {WWW '25}
 }
 ```
 ## ✨ Acknowledgement
